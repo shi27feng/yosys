@@ -2,7 +2,7 @@
 
 set -e
 
-declare -A defines=( ["ice40"]="ICE40_HX ICE40_LP ICE40_U" )
+declare -a defines=( ["ice40"]="ICE40_HX ICE40_LP ICE40_U" )
 
 echo "Running syntax check on arch sim models"
 for arch in ../../techlibs/*; do
